@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginForm</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript -->
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"
+    />
+  </head>
+  <body>
+    <main id="container">
+      <form action="#" id="login">
+        <h1 class="form-title">Login Form</h1>
+
+        <div class="field">
+          <i class="fa fa-user"></i>
+          <input
+            placeholder="UserName :"
+            autocomplete="off"
+            type="text"
+            name="username"
+            id="userName"
+            maxlength="20"
+          />
+        </div>
+
+        <div class="field">
+          <i class="fa fa-key"></i>
+          <input
+            placeholder="Password :"
+            type="password"
+            name="password"
+            id="password"
+            maxlength="16"
+          />
+        </div>
+
+        <a href="#" id="forgetPassword">Forget Password ?</a>
+
+        <div class="buttons">
+          <button id="resetLoginForm" type="reset">Reset</button>
+          <button id="submitLoginForm" type="reset">Login</button>
+        </div>
+
+        <a href="../register.html" id="forgetPassword">Already a member ?</a>
+      </form>
+    </main>
+    <script src="../scripts/login.js"></script>
+    <script></script>
+  </body>
+</html>

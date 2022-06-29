@@ -1,0 +1,96 @@
+@import url(reset.css);
+
+/* Default Styles */
+
+h1 {
+    font-size: 2rem;
+    padding: 1rem;
+}
+a {
+    text-decoration: none;
+    color: #0ff;
+    transition: 0.5s color;
+}
+/* Form Styles */
+* {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+html , body , main#container {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url(../assets/image/wallpaper.gif);
+}
+main#container {
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Move Center The Children this element */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 450px;
+    padding: 1rem;
+    border-radius: 2px;
+}
+.field {
+    position: relative;
+}
+input {
+    color: black;
+    font-size: 1rem;
+    display: block;
+    width: 80%;
+    margin: auto;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 0.75rem;
+    margin-top: 0.75rem;
+}
+.field i {
+    position: absolute;
+    top: 27%;
+    left: 10%;
+
+    color: black;
+
+    font-size: 1.5rem;
+}
+a#forgetPassword {
+    display: block;
+    width: 82%;
+    margin: auto;
+    padding: 1rem;
+
+    text-align: left;
+}
+button {
+    background-color: indigo;
+    border: 2px solid indigo;
+    border-radius: 2px;
+    width: 42%;
+    cursor: pointer;
+    padding: 0.85rem;
+    font-size: 1rem;
+
+    transition: 0.5s background;
+}
+#resetLoginForm {
+    background: transparent;
+}
+
+#resetLoginForm:hover {
+    background: indigo;
+}
+#submitLoginForm:hover {
+    background: transparent;
+}
+a:hover {
+    color: white;
+}
